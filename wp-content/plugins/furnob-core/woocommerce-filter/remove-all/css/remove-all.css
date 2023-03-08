@@ -1,0 +1,29 @@
+form.woocommerce-cart-form.processing,
+.cart-collaterals.processing{
+    background: #fff;
+    opacity: 0.6;
+}
+
+.remove-all {
+	background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff !important;
+    margin-left: auto !important;
+}
+
+.remove-all:hover {
+    opacity: 0.6;
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: #fff !important;
+}
+
+.button[name=update_cart] {
+    display: none;
+}
+
+@media(max-width: 767px){
+    a.remove-all {
+        margin-top: 15px;
+    }
+}

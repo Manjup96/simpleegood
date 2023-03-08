@@ -1,0 +1,102 @@
+2023-03-08T04:18:23+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Contact Form 7')
+#1 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Contact Form 7')
+#2 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\simpleegood\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\simpleegood\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\simpleegood\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-08T04:18:48+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Kirki')
+#1 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Kirki')
+#2 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\simpleegood\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\simpleegood\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\simpleegood\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-08T04:19:08+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'MailChimp Subsc...')
+#1 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('MailChimp Subsc...')
+#2 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\simpleegood\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\simpleegood\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\simpleegood\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-08T04:19:31+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Meta Box')
+#1 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Meta Box')
+#2 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\simpleegood\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\simpleegood\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\simpleegood\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-08T04:19:53+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'WooCommerce Com...')
+#1 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('WooCommerce Com...')
+#2 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\simpleegood\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\simpleegood\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\simpleegood\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-08T04:20:21+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'WooCommerce Wis...')
+#1 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('WooCommerce Wis...')
+#2 C:\xampp\htdocs\simpleegood\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\simpleegood\wp-content\themes\furnob\includes\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\simpleegood\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\simpleegood\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\simpleegood\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\simpleegood\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\simpleegood\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+

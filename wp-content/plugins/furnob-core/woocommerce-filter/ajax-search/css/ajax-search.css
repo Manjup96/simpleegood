@@ -1,0 +1,116 @@
+.klb-search-results {
+    position: absolute;
+	background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-y: auto;
+	width:100%;
+}
+
+.klb-search-results ul {
+    padding: 0;
+	margin:0;
+}
+
+.klb-search-results ul li {
+    font-size: 12px;
+    line-height: 110%;
+    text-align: left;
+    padding: 7px 10px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    resize: vertical;
+    width: 100%;
+}
+
+.klb-search-results ul li.search-more {
+    justify-content: center;
+}
+
+.klb-search-results ul li.search-more a {
+    color: var(--color-main-text);
+	font-size:15px;
+}
+
+.klb-search-results .search-img {
+    width: 50px;
+    display: block;
+    height: 100%;
+}
+
+.klb-search-results .search-img img {
+	background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+    height: auto;
+    width: auto;
+    max-height: 90%;
+    max-width: 100%;
+}
+
+.klb-search-results .search-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    resize: vertical;
+    padding-left: 10px;
+}
+
+.klb-search-results h1.product-title {
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    line-height: 110%;
+}
+
+.klb-search-results h1.product-title a {
+    color: #444;
+}
+
+.klb-search-results span.price {
+    text-align: right;
+    font-size: 14px;
+    flex-direction: column;
+}
+
+.klb-search-results span.price > * {
+    display: block;
+    margin: 0;
+}
+
+.klb-search-results span.price del {
+    opacity: .5;
+    font-size: 12px;
+}
+
+.klb-search-results span.price ins {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+form.search-form .loader-image{
+    margin-right: 0px;
+    width: 25px;
+    color: #000;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { 
+	display: none; 
+}
